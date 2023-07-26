@@ -43,53 +43,53 @@
 <body class="lato-font max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
 
     <header>
-        <!-- Navigation bar -->
-  <nav class="bg-red-500 p-4 rounded-full mb-24">
-    <div class="container mx-auto md:flex md:items-center md:justify-between">
-      <div class="flex items-center justify-between">
-        
-        <!-- Hamburger menu button for mobile -->
-        <div class="md:hidden">
-          <button class="text-white">
-            <i class="fa-solid fa-bars"></i>
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-            </svg>
-          </button>
-        </div>
-      </div>
-  
-      <!-- Navigation links -->
+
+      <nav class="lg:bg-red-500 p-4 rounded-full mb-24 flex justify-between ">
+         <!-- Navigation links -->
       <div class="hidden md:flex md:items-center md:space-x-4">
-        <a href="#" class="text-white">Home</a>
-        <a href="#" class="text-white">About</a>
-        <a href="#" class="text-white">Shop</a>
-        <a href="#" class="text-white">All Fruits</a>
+        <a href="#" class="lg:text-white">Home</a>
+        <a href="#" class="lg:text-white">About</a>
+        <a href="#" class="lg:text-white">Shop</a>
+        <a href="#" class="lg:text-white">All Fruits</a>
       </div>
 
-      <!-- Logo or brand name -->
-      <div class="flex items-center gap-4">
+      <!-- med section nav -->
+
+       <div class="flex items-center gap-40">
+        <!-- Logo or brand name -->
+       <div class="flex items-center gap-4">
         <img src="./images/logo.png" alt="">
-        <h3 class="text-white text-xl font-semibold">Fruit Burst</h3>
+        <h3 class="lg:text-white lg:text-xl font-semibold">Fruit Burst</h3>
         </div>
 
-      <!-- nav search button -->
+          <!-- Hamburger menu button for mobile -->
+          <div class="lg:hidden text-white">
+            <button class="text-black">
+              <i class="fa-solid fa-bars"></i>
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+              </svg>
+            </button>
+          </div> 
+       </div>
 
-      <div class="flex items-center justify-center ">
+         <!-- nav search button -->
+
+      <div class="lg:flex hidden items-center justify-center ">
         <div class="flex items-center border bg-white rounded-full px-4 py-2">
             <input type="text" placeholder="Search here" class="w- px-2 py-1 " />
             <button class="-ml-6">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </button>
         </div>
-    </div>
 
-       
-    </div>
-  </nav>
+        
+      </div>
+
+      </nav>
 
               <!-- first footer section start -->
 
-              <div class="hero min-h-screen bg-hero-bg">
+              <div class="hero min-h-screen bg-hero-bg ">
                 <div class="hero-overlay bg-opacity-60"></div>
                 <div class="hero-content text-center text-neutral-content">
                   <div class=" text-white">
@@ -100,9 +100,9 @@
                 </div>
               </div>
 
-               <!-- fruit cards -->
+               <!-- fruit cards start-->
 
-               <div class="text-black font-medium lg:flex justify-around text-center items-center bg-white h-[35vh] w-[80%] m-auto -mt-32 md:hidden ">
+               <div class="text-black font-medium hidden lg:flex justify-around text-center items-center bg-white h-[35vh] w-[80%] m-auto -mt-32  ">
 
                 <div>
                   <img src="./images/fruit1.png" alt="">
@@ -126,6 +126,7 @@
                 </div>
 
               </div>
+              <!-- fruit cards end-->
 
               <!-- first footer section end -->
 
