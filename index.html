@@ -58,9 +58,9 @@
        <div class="flex items-center gap-40">
         <!-- Logo or brand name -->
        <div class="flex items-center gap-2">
-          <img src="./images/logo.png" alt="">
+          <img class="w-5 lg:w-12" src="./images/logo.png" alt="">
 
-          <h3 class="lg:text-white lg:text-xl font-semibold">Fruit Burst</h3>
+          <h3 class="lg:text-white   lg:text-xl font-semibold lg:font-semibold">Fruit Burst</h3>
         </div>
 
           <!-- Hamburger menu button for mobile -->
@@ -88,24 +88,30 @@
 
       </nav>
 
-              <!-- first footer section start -->
+       <!-- 1st hero section start -->
 
-              <section>
-                <div class="hero min-h-screen bg-hero-bg  ">
-                  <div class="hero-overlay bg-opacity-60"></div>
-                  <div class="hero-content text-center text-neutral-content">
-                    <div class=" text-white">
-                      <h1 class="mb-5 text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
-                      <p class="mb-5">We supply highly quality organic products</p>
-                      <button class="btn btn-primary rounded-lg bg-[#F85559] border-none">Shop Now</button>
-                    </div>
-                  </div>
-                </div>
-              </section>
+       <section>
 
-               <!-- fruit cards start-->
+        <div class="mt-16 hero min-h-screen bg-hero-bg ">
+          <div class="hero-overlay bg-opacity-60"></div>
 
-               <div class="text-black font-medium hidden lg:flex justify-around text-center items-center bg-white h-[35vh] w-[80%] m-auto -mt-32  ">
+          <div>
+            <div class="text-white text-center items-center ">
+              <h1 class="mb-5 text-6xl font-extrabold ">Exotic tastes at your <br> doorstep
+              </h1>
+              <p class="mb-5">We supply highly quality organic products</p>
+
+              <button class=" btn rounded-lg bg-[#F85559] border-none">Shop Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+       <!-- fruit cards start-->
+
+               <div class="text-black font-medium hidden lg:flex justify-around text-center items-center bg-white h-[35vh] w-[80%] -mt-24 m-auto  ">
 
                 <div>
                   <img src="./images/fruit1.png" alt="">
@@ -134,16 +140,16 @@
               <!-- first footer section end -->
 
               <!-- Deal of the day start -->
-  <section class=" items-center mb-24 mt-24  lg:flex md:flex-row">
+  <section class=" items-center  mt-24  lg:flex md:flex-row">
 
-      <div>
+      <div class="flex-1 text-center lg:text-left ">
         <h3 class="text-black font-extrabold text-5xl">Deal of the day</h3>
         <p class="font-medium text-gray-600 mt-5">
-          Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.
+          Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
         </p>
       </div>
 
-      <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+      <div class="grid grid-flow-col gap-5 justify-end mt-10 auto-cols-max flex-1">
         <div class="flex flex-col">
           <span class="countdown font-mono text-5xl">
             <span style="--value:15;"></span>
@@ -466,14 +472,17 @@
      </div>
 
      <section class="lg:flex gap-4 flex-row">
+
     <!-- first box text -->
+
       <div class="flex-1">
-        <div class="border-b-2">
-          <h2 class="text-3xl font-extrabold">Dedicated Team</h2>
+        <div>
+          <div>
+            <h2 class="text-3xl font-extrabold">Dedicated Team</h2>
+            <p class="font-medium">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+          </div>
         </div>
-        <hr>
-        <p class="font-medium">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-        <hr>
+        
       </div>
 
       <!-- 2nd box img section -->      
@@ -497,15 +506,15 @@
 
     <footer class="footer footer-center p-10 bg-black text-primary-content">
       <div class="flex justify-center items-center gap-3">
-        <img src="./images/logo.png" alt="">
-        <p class="font-bold text-5xl text-white">
+        <img class="w-10 lg:w-20" src="./images/logo.png" alt="">
+        <p class="font-bold text-3xl lg:text-5xl text-white">
           Fruit Burst
         </p>
       </div> 
 
       <!-- nav catagory -->
 
-      <div class="text-white text-[18px] font-semibold  grid-cols-2 lg:grid-cols-6 list-none gap-10">
+      <div class="text-white text-[18px] font-semibold grid-cols-2 lg:grid-cols-6 list-none gap-10">
         <li>Home</li>
         <li>About Us</li>
         <li>Shop</li>
