@@ -40,11 +40,11 @@
         </script>
 
 </head>
-<body class="lato-font max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
+<body>
 
-    <header>
+    <header class="lato-font max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
 
-      <nav class="lg:bg-red-500 p-4 rounded-full mb-24 flex justify-between ">
+      <nav class="lg:bg-red-500 p-4 rounded-full mb-16 flex justify-between ">
          <!-- Navigation links -->
       <div class="hidden md:flex md:items-center md:space-x-4">
         <a href="#" class="lg:text-white">Home</a>
@@ -90,16 +90,18 @@
 
               <!-- first footer section start -->
 
-              <div class="hero min-h-screen bg-hero-bg ">
-                <div class="hero-overlay bg-opacity-60"></div>
-                <div class="hero-content text-center text-neutral-content">
-                  <div class=" text-white">
-                    <h1 class="mb-5 text-7xl font-extrabold">Exotic tastes at your doorstep</h1>
-                    <p class="mb-5">We supply highly quality organic products</p>
-                    <button class="btn btn-primary rounded-lg bg-[#F85559] border-none">Shop Now</button>
+              <section>
+                <div class="hero min-h-screen bg-hero-bg  ">
+                  <div class="hero-overlay bg-opacity-60"></div>
+                  <div class="hero-content text-center text-neutral-content">
+                    <div class=" text-white">
+                      <h1 class="mb-5 text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
+                      <p class="mb-5">We supply highly quality organic products</p>
+                      <button class="btn btn-primary rounded-lg bg-[#F85559] border-none">Shop Now</button>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </section>
 
                <!-- fruit cards start-->
 
@@ -132,41 +134,39 @@
               <!-- first footer section end -->
 
               <!-- Deal of the day start -->
-  <section class=" items-center mb-24 mt-24 gap-64 lg:flex md:flex-row">
+  <section class=" items-center mb-24 mt-24  lg:flex md:flex-row">
 
-      <div class="flex-1">
+      <div>
         <h3 class="text-black font-extrabold text-5xl">Deal of the day</h3>
         <p class="font-medium text-gray-600 mt-5">
-          Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+          Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.
         </p>
       </div>
 
-      <div class="flex-1">
-        <div class="grid grid-flow-col gap-12 text-end auto-cols-max">
-          <div class="flex flex-col">
-            <span class="countdown font-mono text-5xl">
-              <span style="--value:15;"></span>
-            </span>
-            days
-          </div> 
-          <div class="flex flex-col">
-            <span class="countdown font-mono text-5xl">
-              <span style="--value:10;"></span>
-            </span>
-            hours
-          </div> 
-          <div class="flex flex-col">
-            <span class="countdown font-mono text-5xl">
-              <span style="--value:24;"></span>
-            </span>
-            min
-          </div> 
-          <div class="flex flex-col">
-            <span class="countdown font-mono text-5xl">
-              <span style="--value:55;"></span>
-            </span>
-            sec
-          </div>
+      <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+        <div class="flex flex-col">
+          <span class="countdown font-mono text-5xl">
+            <span style="--value:15;"></span>
+          </span>
+          days
+        </div> 
+        <div class="flex flex-col">
+          <span class="countdown font-mono text-5xl">
+            <span style="--value:10;"></span>
+          </span>
+          hours
+        </div> 
+        <div class="flex flex-col">
+          <span class="countdown font-mono text-5xl">
+            <span style="--value:24;"></span>
+          </span>
+          min
+        </div> 
+        <div class="flex flex-col">
+          <span class="countdown font-mono text-5xl">
+            <span style="--value:48;"></span>
+          </span>
+          sec
         </div>
       </div>
      </section>
@@ -174,19 +174,21 @@
   
     </header>
 
-    <main>
+    <main class="lato-font max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
 
-      <!-- fruits rating cards -->
+      <!-- fruits rating cards done -->
 
       <section class="grid gap-4 lg:grid-cols-4 ">
 
         <!-- card 1 -->
-        <div class="card bg-base-100 shadow-xl">
-          <figure class="px-10 pt-10">
+        <div class="card bg-base-100 border-2">
+            <figure class="px-10 pt-10 flex justify-center">
             <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
           </figure>
           <div class="card-body items-center text-center">
-            <h2 class="card-title mt-4 mb-4">12.90$ - 18.85$</h2>
+            <div class="border-b-2">
+              <h2 class="card-title mt-4 mb-4">12.90$ - 18.85$</h2>
+            </div>
             <p>Apples</p>
             <div class="rating mt-4 mb-4">
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -229,12 +231,14 @@
           </div>
         </div>
         <!-- card 2 -->
-        <div class="card bg-base-100 shadow-xl">
+        <div class="card bg-base-100 border-2">
           <figure class="px-10 pt-10">
             <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
           </figure>
           <div class="card-body items-center text-center">
-            <h2 class="card-title mt-4 mb-4">12.90$ - 18.85$</h2>
+            <div class="border-b-2">
+              <h2 class="card-title mt-4 mb-4">12.90$ - 18.85$</h2>
+            </div>
             <p>Orange</p>
             <div class="rating mt-4 mb-4">
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -275,12 +279,14 @@
           </div>
         </div>
         <!-- card 3 -->
-        <div class="card  bg-base-100 shadow-xl">
+        <div class="card  bg-base-100 border-2">
           <figure class="px-10 pt-10">
-            <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
+            <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
           </figure>
           <div class="card-body items-center text-center">
-            <h2 class="card-title mt-4 mb-4">12.90$ - 18.85$</h2>
+            <div class="border-b-2">
+              <h2 class="card-title mt-4 mb-4">12.90$ - 18.85$</h2>
+            </div>
             <p>Red Dragon</p>
             <div class="rating mt-4 mb-4">
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -321,12 +327,14 @@
           </div>
         </div>
         <!-- card 4 -->
-        <div class="card  bg-base-100 shadow-xl">
+        <div class="card  bg-base-100 border-2">
           <figure class="px-10 pt-10">
             <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
           </figure>
           <div class="card-body items-center text-center">
-            <h2 class="card-title mt-4 mb-4">12.90$ - 18.85$</h2>
+            <div class="border-b-2">
+              <h2 class="card-title mt-4 mb-4">12.90$ - 18.85$</h2>
+            </div>
             <p>Banana</p>
             <div class="rating mt-4 mb-4">
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -372,9 +380,84 @@
       </div>
 
 
-      <!-- Meet the team section -->
+      <!-- Meet the team section done -->
 
-     
+      <div class="bg-hero-bg-two bg-no-repeat bg-cover rounded-lg py-16 px-8 text-center">
+
+        <div class="bg-blend-darken hover:bg-blend-darken">
+          <!-- ... -->
+        </div>
+        <h1 class="text-4xl text-white font-bold mb-4">Meet the team section</h1>
+        <p class="text-white mb-8 text-center ">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+        <div class="grid lg:grid-cols-4 gap-4">
+          <!-- First Image Div -->
+          <div class="rounded-lg overflow-hidden">
+             <div class="items-center">
+              <div class="flex items-center justify-center ">
+                <img src="./images/member1.png" alt="">
+              </div>
+              <h3 class="font-extrabold text-white text-2xl mt-6">Awlad Hossain</h3>
+              <p class="text-white">Fruits Expert</p>
+               <!-- social icon -->
+               <div class="flex gap-4 justify-center mt-4 text-orange-600 ">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Second Image Div -->
+          <div class="rounded-lg overflow-hidden">
+            <div class="items-center">
+             <div class="flex items-center justify-center ">
+               <img src="./images/member2.png" alt="">
+             </div>
+             <h3 class="font-extrabold text-white text-2xl mt-6">Safia Chowdhury</h3>
+             <p class="text-white">Fruits Expert</p>
+              <!-- social icon -->
+              <div class="flex gap-4 justify-center mt-4 text-orange-600 ">
+               <i class="fa-brands fa-facebook"></i>
+               <i class="fa-brands fa-twitter"></i>
+               <i class="fa-brands fa-linkedin"></i>
+             </div>
+           </div>
+         </div>
+          <!-- Third Image Div -->
+          <div class="rounded-lg overflow-hidden">
+            <div class="items-center">
+             <div class="flex items-center justify-center ">
+               <img src="./images/member3.png" alt="">
+             </div>
+             <h3 class="font-extrabold text-white text-2xl mt-6">Rokib Hossain</h3>
+             <p class="text-white">Fruits Expert</p>
+              <!-- social icon -->
+              <div class="flex gap-4 justify-center mt-4 text-orange-600 ">
+               <i class="fa-brands fa-facebook"></i>
+               <i class="fa-brands fa-twitter"></i>
+               <i class="fa-brands fa-linkedin"></i>
+             </div>
+           </div>
+         </div>
+          <!-- Fourth Image Div -->
+          <div class="rounded-lg overflow-hidden">
+            <div class="items-center">
+             <div class="flex items-center justify-center ">
+               <img src="./images/member4.png" alt="">
+             </div>
+             <h3 class="font-extrabold text-white text-2xl mt-6">Chaity</h3>
+             <p class="text-white">Fruits Expert</p>
+              <!-- social icon -->
+              <div class="flex gap-4 justify-center mt-4 text-orange-600 ">
+               <i class="fa-brands fa-facebook"></i>
+               <i class="fa-brands fa-twitter"></i>
+               <i class="fa-brands fa-linkedin"></i>
+             </div>
+           </div>
+         </div>
+        </div>
+      </div>
+
+     <!-- Why Choose Us -->
 
 
         
